@@ -24,7 +24,7 @@ public class RazorPayPaymentGateway implements PaymentGateway{
         paymentLinkRequest.put("accept_partial",true);
         paymentLinkRequest.put("first_min_partial_amount",100);
         paymentLinkRequest.put("expire_by",1710527804);
-        paymentLinkRequest.put("reference_id","TS1999");
+        paymentLinkRequest.put("reference_id","TS1991");
         paymentLinkRequest.put("description","Payment for policy no #23456");
         JSONObject customer = new JSONObject();
         customer.put("name","Rajat Yadav");
